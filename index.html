@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        
+        <h1 class="logo">  </h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+        <img src="./assets/menu-btn.png" alt="" class="menu-btn">
+    <header>
+        <div class ="header-content">
+            <h2>Explore the colourful world</h2>
+            <div class=""line"></div>
+            <h1>A WONDERFULL GIFT</h1>
+            <a href="#" class="ctn">Lern more</a>
+        </div>
+    </header>
+    <!--events-->
+      
+
+     <section class="events">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line"></div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+     <img src="./assets/img1.png" alt="">
+     <h4>Everest Camp Terk</h4>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, dolores?</p>
+     <a href="#" class="ctn">learn more</a>
+            </div>
+
+            <div class="col">
+                <img src="./assets/img2.png" alt="">
+     <h4>Walking Holidays</h4>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, dolores?</p>
+     <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+     </section>
+     <section class="explore">
+        <div class="explore-content">
+
+            <h1>EXPLORE THE WORLD</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quisquam.</P>
+        </div>
+        <a href="#" class="ctn">Learn more</a>
+        
+    </section>
+    <section class="tours"> 
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, accusamus!</p>
+                <a href="#" class="ctn">Learn more</a>
+
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./assets/img3.png" alt="">
+                   <img src="./assets/img4.png" alt="">
+                   <img src="./assets/img5.png" alt="">
+                   <img src="./assets/img6.png" alt="">
+            </div>
+        </div>       
+
+</section>
+<section class="footer">
+    <p>123 time square thaltej|phone:9823478322|email:@123</p>
+    <p>copyrigth @2025 outdoor adventure</p>
+
+</section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+    </script>
+</body>
+</html>
